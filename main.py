@@ -18,6 +18,10 @@ parking_lane_2_spots = "20"
 cv2.putText(image, "Parking Lane 2 Spots:", (10, 650), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 3, cv2.LINE_AA)
 cv2.putText(image, parking_lane_2_spots, (368, 653), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 3, cv2.LINE_AA)
 
+# Add parking lane 2 lines
+cv2.line(image, (10, 340), (1105, 340), (255, 255, 255), 1)
+cv2.line(image, (10, 290), (1090, 290), (255, 255, 255), 1)
+
 cv2.imshow("Parking lot", image)
 
 cv2.waitKey(0)
