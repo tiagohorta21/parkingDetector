@@ -23,18 +23,18 @@ Create a **New Project** and call it `Annotations`. It is highly recommended to 
 
 Under **Source Connection** choose **Add Connection** and put `Images` as **Display Name**. Under **Provider** choose **Local File System** and select [`TrainYourOwnYOLO/Data/Source Images/Training_Images`](/Data/Source_Images/Training_Images) and then **Save Connection**. For **Target Connection** choose the same folder as for **Source Connection**. Hit **Save Project** to finish project creation. 
 
-![New Project](/1_Image_Annotation/Screen_Recordings/New_Project.gif)
+![New Project](Screen_Recordings/New_Project.gif)
 
 ### Export Settings
 Navigate to **Export Settings** in the sidebar and then change the **Provider** to `Comma Separated Values (CSV)`, then hit **Save Export Settings**. 
 
-![New Project](/1_Image_Annotation/Screen_Recordings/Export_Settings.gif)
+![New Project](Screen_Recordings/Export_Settings.gif)
 
 
 ### Labeling
 First create a new tag on the right and give it a relevant tag name. In our example, we choose `Cat_Face`. Then draw bounding boxes around your objects. You can use the number key **1** to quickly assign the first tag to the current bounding box. 
 
-![New Project](/1_Image_Annotation/Screen_Recordings/Labeling.gif)
+![New Project](Screen_Recordings/Labeling.gif)
 
 ### Export Results
 Once you have labeled enough images press **CRTL+E** to export the project. You should now see a folder called [`vott-csv-export`](/Data/Source_Images/Training_Images/vott-csv-export) in the [`Training_Images`](/Data/Source_Images/Training_Images) directory. Within that folder, you should see a `*.csv` file called [`Annotations-export.csv`](/Data/Source_Images/Training_Images/vott-csv-export/Annotations-export.csv) which contains file names and bounding box coordinates. 
