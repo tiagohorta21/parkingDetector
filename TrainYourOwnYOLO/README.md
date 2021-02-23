@@ -61,7 +61,7 @@ Create Virtual **(Windows)** Environment:
 py -m venv env
 .\env\Scripts\activate
 ```
-![PowerShell](/Utils/Screenshots/PowerShell.png)
+![PowerShell](Utils/Screenshots/PowerShell.png)
 Make sure that, from now on, you **run all commands from within your virtual environment**.
 
 #### Install Required Packages [Windows, Mac or Linux]
@@ -81,7 +81,7 @@ python Minimal_Example.py
 
 The outputs are saved in [`TrainYourOwnYOLO/Data/Source_Images/Test_Image_Detection_Results`](/Data/Source_Images/Test_Image_Detection_Results). This includes:
  - Cat pictures with bounding boxes around faces with confidence scores and
- - [`Detection_Results.csv`](/Data/Source_Images/Test_Image_Detection_Results/Detection_Results.csv) file with file names and locations of bounding boxes.
+ - [`Detection_Results.csv`](Data/Source_Images/Test_Image_Detection_Results/Detection_Results.csv) file with file names and locations of bounding boxes.
 
  If you want to detect cat faces in your own pictures, replace the cat images in [`Data/Source_Images/Test_Images`](/Data/Source_Images/Test_Images) with your own images.
 
@@ -139,7 +139,7 @@ Unless explicitly stated otherwise at the top of a file, all code is licensed un
 ## Need more help? File an Issue!
 If you would like to file an issue, please use the provided issue template and make sure to complete all fields. This makes it easier to reproduce the issue for someone trying to help you. 
 
-![Issue](/Utils/Screenshots/Issue.gif)
+![Issue](Utils/Screenshots/Issue.gif)
 
 Issues without a completed issue template will be closed after 7 days. 
 
