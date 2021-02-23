@@ -19,7 +19,7 @@ I used this approach essentially because all the pre-trained models were not giv
 Also the objects that I was trying to identify are in an aerial view which makes it even harder.
 
 So with my custom model, with only 59 training images, I was able to get results like this:
-![parking_lot](Result/first_result.jpg "Parking lot")
+![parking_lot](Result/58.jpg "Parking lot")
 
 ### Used libraries
 
