@@ -23,4 +23,5 @@ So with my custom model, with only 59 training images, I was able to get results
 
 ### Used libraries
 
-[opencv-python](https://pypi.org/project/opencv-python) - version 4.5.1.48
+- python - version 3.6
+- [opencv-python](https://pypi.org/project/opencv-python) - version 4.5.1.48
